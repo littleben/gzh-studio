@@ -1,0 +1,9 @@
+*.yaml
+*.yml
+.env*
+__pycache__/
+*.pyc
+.DS_Store
+*.gzh.html
+*.preview.html
+shots/

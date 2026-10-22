@@ -1,0 +1,15 @@
+gzh-studio
+Copyright (C) 2026 Ben (https://benx.ai)
+
+This project is a derivative of gzh-design-skill
+(https://github.com/isjiamu/gzh-design-skill, commit 750a50d),
+Copyright (C) 2026 甲木 (Jiamu) × 摸鱼小李 (Moyu Xiaoli),
+licensed under the GNU Affero General Public License v3.0.
+
+- scripts/validate.py is copied from gzh-design-skill scripts/validate_gzh_html.py.
+- The component designs in scripts/render.py (quote card, contents cards,
+  numbered chapter title, data cards, timeline, pill list, tip and pitfall
+  blocks, table, END divider, image card, code block) and the theme palettes
+  are adapted from gzh-design-skill's theme libraries.
+
+gzh-studio is distributed under the same license (AGPL-3.0, see LICENSE).
