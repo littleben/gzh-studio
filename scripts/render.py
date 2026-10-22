@@ -79,7 +79,7 @@ class Renderer:
         self.s = {
             "p": (f'margin:20px 0;font-size:{p["size"]}px;line-height:{p["lh"]};letter-spacing:{p["ls"]}px;'
                   f'text-align:justify;color:{p["text"]};'),
-            "lead": f'font-size:{p["size"] + 1}px;font-weight:600;color:{p["heading"]};',
+            "lead": f'font-size:{p["size"] + 1}px;font-weight:600;color:{p["heading"]};text-align:left;',
             "strong": f"color:{strong};font-weight:700;",
             "underline": f'border-bottom:2px solid {p["underline"]};font-weight:600;color:{p["heading"]};',
             "mark": f'background:{p["border"]};color:{p["dark"]};padding:2px 6px;border-radius:3px;font-weight:700;',
