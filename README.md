@@ -2,7 +2,7 @@
 
 公众号文章的**配图、排版、发布**一条龙 Agent Skill。写 Markdown，一条命令进公众号草稿箱。
 
-- 📖 介绍文章：[benx.ai/blog/posts/gzh-studio-wechat-skill](https://benx.ai/blog/posts/gzh-studio-wechat-skill/)
+- 📖 介绍文章：[benx.ai/blog/posts/markdown-to-wechat-skill](https://benx.ai/blog/posts/markdown-to-wechat-skill/)
 - 👤 作者：[Ben](https://benx.ai)，公众号「AI工具进化论」
 
 ![6 套主题](assets/previews/gallery.png)
