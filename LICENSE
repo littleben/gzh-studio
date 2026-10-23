@@ -1,5 +1,8 @@
-gzh-design-skill — 微信公众号排版技能
-Copyright (C) 2026 甲木 (Jiamu) × 摸鱼小李 (Moyu Xiaoli)
+markdown-to-wechat: 公众号配图、排版、发布 Agent Skill
+Copyright (C) 2026 Ben (https://benx.ai)
+
+Portions derived from gzh-design-skill (https://github.com/isjiamu/gzh-design-skill)
+Copyright (C) 2026 甲木 (Jiamu) × 摸鱼小李 (Moyu Xiaoli). See NOTICE.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
