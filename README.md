@@ -1,4 +1,4 @@
-# gzh-studio
+# markdown-to-wechat
 
 公众号文章的**配图、排版、发布**一条龙 Agent Skill。写 Markdown，一条命令进公众号草稿箱。
 
@@ -20,7 +20,7 @@
 Claude Code：
 
 ```sh
-git clone https://github.com/littleben/gzh-studio ~/.claude/skills/gzh-studio
+git clone https://github.com/littleben/markdown-to-wechat ~/.claude/skills/markdown-to-wechat
 pip install pillow requests playwright
 ```
 
@@ -28,7 +28,7 @@ Codex 和其他支持 Agent Skills 的工具：把仓库放进对应的 skills �
 
 然后对 Agent 说：
 
-> 用 gzh-studio，把这篇 Markdown 排成公众号文章，先截真实的后台数据做配图，预览没问题后发到草稿箱。
+> 用 markdown-to-wechat，把这篇 Markdown 排成公众号文章，先截真实的后台数据做配图，预览没问题后发到草稿箱。
 
 ## 不用 Agent 也能用
 

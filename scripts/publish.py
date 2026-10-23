@@ -123,7 +123,7 @@ def main() -> int:
     args = ap.parse_args()
     article = args.article.resolve()
 
-    with tempfile.TemporaryDirectory(prefix="gzh-studio-") as tmp:
+    with tempfile.TemporaryDirectory(prefix="markdown-to-wechat-") as tmp:
         job = Path(tmp) / "job"
         job.mkdir()
         build_job(article, job, args.theme, args.cta)
@@ -138,7 +138,7 @@ def main() -> int:
             from wechat_api import run_job
             run_job(str(job), app_id, app_secret)
             return 0
-        remote = f"/tmp/gzh-studio-{uuid.uuid4().hex[:12]}"
+        remote = f"/tmp/markdown-to-wechat-{uuid.uuid4().hex[:12]}"
         subprocess.run(["ssh", args.ssh, f"mkdir -p {shlex.quote(remote)}"], check=True)
         subprocess.run(["scp", "-q", "-r", *[str(p) for p in job.iterdir()], f"{args.ssh}:{remote}/"], check=True)
         script = (f"set -eu\ntrap 'rm -rf {shlex.quote(remote)}' EXIT\n"

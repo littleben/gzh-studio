@@ -1,4 +1,4 @@
-gzh-studio
+markdown-to-wechat
 Copyright (C) 2026 Ben (https://benx.ai)
 
 This project is a derivative of gzh-design-skill
@@ -12,4 +12,4 @@ licensed under the GNU Affero General Public License v3.0.
   blocks, table, END divider, image card, code block) and the theme palettes
   are adapted from gzh-design-skill's theme libraries.
 
-gzh-studio is distributed under the same license (AGPL-3.0, see LICENSE).
+markdown-to-wechat is distributed under the same license (AGPL-3.0, see LICENSE).

@@ -1,5 +1,5 @@
 ---
-title: 示例：一篇用 gzh-studio 排出来的公众号文章
+title: 示例：一篇用 markdown-to-wechat 排出来的公众号文章
 cover: ./images/cover.png
 ---
 
@@ -7,7 +7,7 @@ cover: ./images/cover.png
 
 > [!INTRO] 排版不是堆组件，而是让==该强调的地方==被看见。
 
-这是一篇示例文章，用来展示 gzh-studio 的每一种组件。换一个主题，同一份 Markdown 会排出完全不同的气质。
+这是一篇示例文章，用来展示 markdown-to-wechat 的每一种组件。换一个主题，同一份 Markdown 会排出完全不同的气质。
 
 > [!TOC] 真实配图 | 分散的组件 | 一键进草稿箱
 

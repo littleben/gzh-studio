@@ -18,7 +18,7 @@ python3 scripts/publish.py article.md --dry-run --preview out.html
 WECHAT_APP_ID=wx... WECHAT_APP_SECRET=... python3 scripts/publish.py article.md
 
 # 通过白名单服务器（推荐）
-python3 scripts/publish.py article.md --ssh myserver --config ~/.config/gzh-studio.yaml
+python3 scripts/publish.py article.md --ssh myserver --config ~/.config/markdown-to-wechat.yaml
 ```
 
 `--config` 文件只放两行：`app_id: wx...` 和 `app_secret: ...`。**不要提交到仓库**，`.gitignore` 已经忽略了 `*.yaml`。用 `--ssh` 时，凭据走 SSH 的 stdin，不会出现在命令行参数、日志或上传的文件里；远端的临时目录会自动删除。
